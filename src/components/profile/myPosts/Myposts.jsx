@@ -1,10 +1,16 @@
 import React from "react";
 import styles from "./_posts.module.scss";
 import Post from "./Postt/Post";
-
+import shortid from "shortid";
 const MyPosts = (props) => {
   let postElements = props.postData.map((p) => {
-    return <Post message={p.post} likesCount={[p.likesCount]} />;
+    return (
+      <Post
+        message={p.post}
+        likesCount={[p.likesCount]}
+        key={shortid.generate()}
+      />
+    );
   });
 
   return (

@@ -17,17 +17,12 @@ const App = (props) => {
           <Routes>
             <Route
               path="/dialogs/*"
-              element={
-                <Dialogs
-                  dialogsData={props.dialogsData}
-                  messages={props.messages}
-                />
-              }
+              element={<Dialogs state={props.appState.dialogsPage} />}
             />
             {/* {If you want to match more of the URL because you have child routes use a trailing * as in <Route path="dialogs/*">. */}
             <Route
               path="/profile"
-              element={<Profile postData={props.postData} />}
+              element={<Profile profileState={props.appState.profilePage} />}
             />
           </Routes>
         </div>
