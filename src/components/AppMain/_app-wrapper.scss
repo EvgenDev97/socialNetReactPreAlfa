@@ -1,0 +1,24 @@
+.app-wrapper{
+    display: grid;
+    grid-template-areas: 
+    'head head '
+    'navigation cont ';
+    grid-template-rows: 60px 1fr;
+    grid-template-columns: 1fr 10fr;
+    gap:0px
+}
+
+.header{
+    grid-area: head;
+
+}
+
+.nav{
+    grid-area: navigation;
+}
+
+.content{
+    grid-area: cont;
+    
+}
+

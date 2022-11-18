@@ -1,0 +1,24 @@
+.nav {
+    background-color: #000000;
+    
+
+    .navItem {
+        padding-bottom: 10px;
+        padding-right: 10px;
+        color: white;
+
+        
+            color: white;
+            text-decoration: none;
+            &:hover,:focus, :active{
+                color:gold;
+            }
+        
+
+       
+    }
+   
+    .active{
+        color:red;
+    }
+}

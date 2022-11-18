@@ -1,0 +1,33 @@
+.content {
+    background-image: url("./../../img/background.jpg") ;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    height: 100vh;
+    opacity: 95%;
+
+}
+
+@media all and (max-width:912px) {
+    .content{
+        background-image: url("./../../img/adaptiv.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media all and (max-width:750px) {
+    .content{
+        background-image: url("./../../img/adaptiv.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    };
+}
+
+@media all and (max-width:414px){
+    .content{
+        background-image: url("./../../img/mobile.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    } 
+}

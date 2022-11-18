@@ -1,0 +1,30 @@
+.dialogs{
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    gap: 1vh;
+    padding: 10px;
+
+   
+}
+
+.dialog {
+    color: gold;
+    padding-bottom: 10px;
+
+}
+
+.active {
+    color: red;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+
+
+.dialogList *:not(:first-child){
+    margin-top: 10px;
+}
+
+.message{
+    color:rgb(237, 237, 15);
+    padding-bottom: 10px;
+}

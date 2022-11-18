@@ -1,0 +1,20 @@
+.header {
+    
+    display: flex;
+    flex-wrap: wrap;
+    img {
+        width: 50px;
+        padding-top: 5px;
+        padding-left: 5px;
+        height: 45px;
+    }
+
+    
+    background: black;
+
+    .date{
+        color: red;
+        padding: 2vh 0 0 2vh;
+    
+    }
+}
